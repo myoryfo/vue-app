@@ -1,0 +1,21 @@
+[
+    {
+        "id": 1,
+        "title": "First memo",
+        "content": "This is the first memo",
+        "date": "2022-01-01"
+    },
+    {
+        "id": 2,
+        "title": "Second memo",
+        "content": "This is the second memo",
+        "date": "2022-01-02"
+    },
+    {
+        "id": 3,
+        "title": "Third memo",
+        "content": "This is the third memo",
+        "date": "2022-01-03"
+
+    }
+]
