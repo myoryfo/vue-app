@@ -9,12 +9,15 @@ defineProps<{
 </script>
 <template>
 
-<div 
+        <div 
         class="card" 
         >
-          <h2>{{ memo.title }}</h2>
-          <button @click="deleteButtonClick(memo.id)" class="card-close-button">X</button>
-          <p class="card-content">{{ memo.content }}</p>
+          <div>
+          <h2 id="memo-title" class="text-xl mb-3">{{ memo.title }}</h2>
+          <div class="h-12 truncate">{{ memo.content }}</div>
+          </div>
+          <button @click="deleteButtonClick(memo.id)" class="absolute top-[0px] right-3 cursor-pointer bg-transparent text-[30px] transition-all duration-500 ease-in-out hover:scale-120 ">&times;</button>
+         
           <p class="card-date">{{ memo.date }}</p>
           
         </div>
@@ -47,13 +50,5 @@ defineProps<{
   margin-bottom: 10px;
   color: white;
   position: relative;
-}
-.card:nth-child(3n) {
-  background-color: antiquewhite;
-  color: black;
-}
-.card:nth-child(3n-2) {
-  background-color: antiquewhite;
-  color: black;
 }
 </style>
