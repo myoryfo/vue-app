@@ -77,7 +77,7 @@ const enter = (el: any, done: () => void): void => {
         <header
             class="bg-cyan-800 rounded-2xl text-white py-6 text-center text-xl font-bold"
         >
-            Vue 3 Page with 5 Sections
+            Hall Page Section
         </header>
         <TransitionGroup
             appear
